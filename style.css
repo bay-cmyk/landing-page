@@ -1,8 +1,18 @@
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.header,
+.hero,
+.quote,
+.call,
+.footer {
+    padding: 50px 200px;
+}
 /* header */
 
 .header,
@@ -10,13 +20,13 @@ body {
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0 100px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 200px;
 }
 
 .logo {
@@ -48,7 +58,7 @@ a {
 }
 
 h1 {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .hero-text {
@@ -73,6 +83,10 @@ button {
 
 /* main */
 
+.main {
+    padding: 0 200px;
+}
+
 .blue {
     border: 5px solid #3882F6;
     border-radius: 8px;
@@ -88,18 +102,15 @@ h2 {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 5px;
+    gap: 20px;
 }
 
-.info {
-    color: ;
-    max-width: 130px;
-}
 
 .description {
     color: #5e5e5e;
     margin-top: 0;
     flex-wrap: wrap;
+    max-width: 200px;
 }
 
 /* quote */
@@ -107,7 +118,6 @@ h2 {
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -144,3 +154,10 @@ h2 {
 }
 
 /* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
