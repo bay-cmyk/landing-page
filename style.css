@@ -33,3 +33,7 @@ a {
     text-decoration: none;
     color: #F9FAF8;
 }
+
+.hero-img {
+    width: 300px;
+}
