@@ -122,3 +122,25 @@ h2 {
     align-self: flex-end;
     font-weight: 900;
 }
+
+/* call */
+
+.call {
+    margin: 100px;
+    padding: 30px 50px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttom {
+    border: 2px solid #E5E7EB;
+}
+
+.call-title {
+    font-weight: 900;
+}
+
+/* footer */
