@@ -3,16 +3,17 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .header,
 .hero,
 .quote,
+.main,
 .call,
 .footer {
     padding: 50px 200px;
 }
+
 /* header */
 
 .header,
@@ -54,7 +55,7 @@ a {
 /* hero  */
 
 .hero-img {
-    width: 400px;
+    width: 500px;
 }
 
 h1 {
@@ -62,15 +63,15 @@ h1 {
 }
 
 .hero-text {
-    margin-top: 0;
+    margin-top: 10px;
     font-size: 18px;
 }
 
 .hero {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 100px;
 }
 
 button {
@@ -82,10 +83,6 @@ button {
 }
 
 /* main */
-
-.main {
-    padding: 0 200px;
-}
 
 .blue {
     border: 5px solid #3882F6;
@@ -158,8 +155,8 @@ h2 {
 .footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     padding: 30px;
 }
 
