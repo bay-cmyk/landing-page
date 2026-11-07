@@ -3,6 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    background-color: #f0e9ff;
 }
 
 .header,
@@ -11,7 +12,15 @@ body {
 .main,
 .call,
 .footer {
-    padding: 50px 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.hero,
+.quote,
+.call {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* header */
@@ -19,15 +28,14 @@ body {
 .header,
 .hero,
 .footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color: #4e528d;
+    color: #f0e9ff;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
 }
 
 .logo {
@@ -49,7 +57,7 @@ ul {
 a {
     font-size: 18px;
     text-decoration: none;
-    color: #E5E7EB;
+    color: #d7ccf0;
 }
 
 /* hero  */
@@ -58,11 +66,14 @@ a {
     width: 500px;
 }
 
+
+
 h1 {
     margin: 0;
 }
 
 .hero-text {
+    color: #d7ccf0;
     margin-top: 10px;
     font-size: 18px;
 }
@@ -71,12 +82,13 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
 }
 
+
 button {
-    background-color: #3882F6;
-    color: #F9FAF8;
+    background-color: #180083;
+    color: #f0e9ff;
     border-width: 0;
     padding: 10px 30px;
     border-radius: 8px;
@@ -84,8 +96,9 @@ button {
 
 /* main */
 
+
 .blue {
-    border: 5px solid #3882F6;
+    border: 5px solid #ffb74a;
     border-radius: 8px;
     width: 100px;
     height: 100px;
@@ -113,7 +126,7 @@ h2 {
 /* quote */
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: #d5c9ff;
     color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -136,14 +149,14 @@ h2 {
     margin: 100px;
     padding: 30px 50px;
     border-radius: 8px;
-    background-color: #3882F6;
-    color: #E5E7EB;
+    background-color: #180083;
+    color: #f0e9ff;
     display: flex;
     justify-content: space-between;
 }
 
 .buttom {
-    border: 2px solid #E5E7EB;
+    border: 2px solid #f0e9ff;
 }
 
 .call-title {
