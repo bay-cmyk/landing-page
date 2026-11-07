@@ -158,6 +158,6 @@ h2 {
 .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     padding: 30px;
 }
